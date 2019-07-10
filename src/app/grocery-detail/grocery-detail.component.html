@@ -1,0 +1,25 @@
+<div *ngIf="grocery">
+    <div>
+        <label>Category: </label> {{grocery.category}}
+    </div>
+    <div>
+        <label>Item Name: </label> {{grocery.item_name}}
+    </div>
+    <div>
+        <label>Amount: </label> {{grocery.Amount}}
+    </div>
+    <div>
+        <label>Active: </label> {{grocery.Expense_date}}
+    </div>
+    <div>
+        <label>Active: </label> {{grocery.active}}
+    </div>
+
+    <span class="button is-small btn-primary" *ngIf='grocery.active' (click)='updateActive(false)'>Inactive</span>
+
+    <span class="button is-small btn-primary" *ngIf='!grocery.active' (click)='updateActive(true)'>Active</span>
+
+    <span class="button is-small btn-danger" (click)='deleteGrocery()'>Delete</span>
+
+    <hr/>
+</div>

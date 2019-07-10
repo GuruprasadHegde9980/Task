@@ -1,0 +1,9 @@
+.navclr{
+  border: 1px solid lightgray;
+}
+
+.navbtn{
+  margin-left: 25%;
+  margin-top: 2%;
+  position: absolute;
+}

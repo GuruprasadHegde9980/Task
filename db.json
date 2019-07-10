@@ -1,0 +1,32 @@
+{
+  "grocery": [
+    {
+      "id": 1,
+      "category": "Grocery",
+      "item_name": "Bread",
+      "Amount": 40,
+      "Expense_date": "9 july 2019"
+    },
+    {
+      "category": "Grocery",
+      "item_name": "Rice",
+      "Amount": "62",
+      "Expense_date": "12/2/2012",
+      "id": 2
+    },
+    {
+      "category": "Grocery",
+      "item_name": "Rice",
+      "Amount": "62",
+      "Expense_date": "12/2/2012",
+      "id": 3
+    },
+    {
+      "category": "Grocery",
+      "item_name": "Rice",
+      "Amount": "62",
+      "Expense_date": "12/2/2012",
+      "id": 4
+    }
+  ]
+}
